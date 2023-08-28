@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../public/css/admindashboard.css" />
+</head>
+
+<body class="login-body">
+    <div class="container-login">
+        <form method="post" action="validate.php">
+            <fieldset class="top">
+
+                <table>
+                    <center>
+
+                        <h1 class="signin" style="color: #560bad;">Admin Sign in</h1>
+                        <tr>
+                            <td>
+                                <input type="email" name="email" placeholder="Username or email" class="login-input"  required /><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" name="password" class="login-input" placeholder="Password" required /><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" value="Remember me" />
+                                <label style="color: #560bad;">Remember me</label><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <input type="submit" name="submit" class="btn" value="Sign in"> 
+                            </td>
+                        </tr>
+                        <!-- <tr>
+                            <td>
+                                <a href="#"><button class="btn"> Create a account</button></a>
+                            </td>
+                        </tr> -->
+                        <!-- <a href="./pages/dashboard/dashboard.php">link</a> -->
+                    </center>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
